@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "8wXM7jlYzuucRm28BhXRUWv9H1Wy+gKSReSYqU50fz42EqnviMyohei5HQo1kYoSaVzXaDa51lBOKJH4qxNBDg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\USER\\source\\repos\\AutoLotConsoleApp\\AutoLotDAL\\AutoLotDAL.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to read project information for 'AutoLotDAL': Invalid framework identifier ''."
+    }
+  ]
+}

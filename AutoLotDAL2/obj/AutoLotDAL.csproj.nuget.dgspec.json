@@ -1,0 +1,25 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\USER\\source\\repos\\AutoLotConsoleApp\\AutoLotDAL\\AutoLotDAL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\USER\\source\\repos\\AutoLotConsoleApp\\AutoLotDAL\\AutoLotDAL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\AutoLotConsoleApp\\AutoLotDAL\\AutoLotDAL.csproj",
+        "projectPath": "C:\\Users\\USER\\source\\repos\\AutoLotConsoleApp\\AutoLotDAL\\AutoLotDAL.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\source\\repos\\AutoLotConsoleApp\\AutoLotDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        }
+      }
+    }
+  }
+}

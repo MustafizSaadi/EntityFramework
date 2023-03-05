@@ -1,0 +1,15 @@
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDAL\obj\Debug\AutoLotDAL.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDAL\obj\Debug\AutoLotDAL.Migrations.InitialCreate.resources
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDAL\obj\Debug\AutoLotDAL.Migrations.final.resources
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDAL\obj\Debug\AutoLotDAL.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDAL\obj\Debug\AutoLotDAL.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDAL\bin\Debug\AutoLotDAL.dll.config
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDAL\bin\Debug\AutoLotDAL.dll
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDAL\bin\Debug\AutoLotDAL.pdb
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDAL\bin\Debug\EntityFramework.dll
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDAL\bin\Debug\EntityFramework.xml
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDAL\obj\Debug\AutoLotDAL.csproj.CopyComplete
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDAL\obj\Debug\AutoLotDAL.dll
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDAL\obj\Debug\AutoLotDAL.pdb

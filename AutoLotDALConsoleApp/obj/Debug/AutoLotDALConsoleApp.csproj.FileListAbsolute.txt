@@ -1,0 +1,16 @@
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDALConsoleApp\obj\Debug\AutoLotDALConsoleApp.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDALConsoleApp\obj\Debug\AutoLotDALConsoleApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDALConsoleApp\obj\Debug\AutoLotDALConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDALConsoleApp\bin\Debug\AutoLotDALConsoleApp.exe.config
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDALConsoleApp\bin\Debug\AutoLotDALConsoleApp.exe
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDALConsoleApp\bin\Debug\AutoLotDALConsoleApp.pdb
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDALConsoleApp\bin\Debug\AutoLotDAL.dll
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDALConsoleApp\bin\Debug\EntityFramework.dll
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDALConsoleApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDALConsoleApp\bin\Debug\AutoLotDAL.pdb
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDALConsoleApp\bin\Debug\AutoLotDAL.dll.config
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDALConsoleApp\bin\Debug\EntityFramework.xml
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDALConsoleApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDALConsoleApp\obj\Debug\AutoLotDALConsoleApp.csproj.CopyComplete
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDALConsoleApp\obj\Debug\AutoLotDALConsoleApp.exe
+C:\Users\USER\source\repos\AutoLotConsoleApp\AutoLotDALConsoleApp\obj\Debug\AutoLotDALConsoleApp.pdb

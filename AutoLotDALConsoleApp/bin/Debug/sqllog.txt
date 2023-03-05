@@ -1,0 +1,139 @@
+Opened connection at 2/21/2023 5:59:01 PM +06:00
+select cast(serverproperty('EngineEdition') as int)
+-- Executing at 2/21/2023 5:59:01 PM +06:00
+-- Completed in 8 ms with result: SqlDataReader
+
+Closed connection at 2/21/2023 5:59:01 PM +06:00
+Opened connection at 2/21/2023 5:59:02 PM +06:00
+IF db_id(N'AutoLotDAL') IS NOT NULL SELECT 1 ELSE SELECT Count(*) FROM sys.databases WHERE [name]=N'AutoLotDAL'
+-- Executing at 2/21/2023 5:59:02 PM +06:00
+-- Completed in 468 ms with result: 1
+
+Closed connection at 2/21/2023 5:59:02 PM +06:00
+Opened connection at 2/21/2023 5:59:02 PM +06:00
+
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.Customers','dbo.Orders','dbo.Inventory')
+    OR t.TABLE_NAME = 'EdmMetadata'
+-- Executing at 2/21/2023 5:59:02 PM +06:00
+-- Completed in 1065 ms with result: 3
+
+Closed connection at 2/21/2023 5:59:03 PM +06:00
+Opened connection at 2/21/2023 5:59:03 PM +06:00
+SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+-- p__linq__0: 'AutoLotDAL.EF.AutoLotDALEntities' (Type = String, Size = 4000)
+-- Executing at 2/21/2023 5:59:05 PM +06:00
+-- Completed in 1452 ms with result: SqlDataReader
+
+Closed connection at 2/21/2023 5:59:07 PM +06:00
+Opened connection at 2/21/2023 5:59:07 PM +06:00
+SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+-- p__linq__0: 'AutoLotDAL.EF.AutoLotDALEntities' (Type = String, Size = 4000)
+-- Executing at 2/21/2023 5:59:07 PM +06:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 2/21/2023 5:59:07 PM +06:00
+Opened connection at 2/21/2023 5:59:07 PM +06:00
+SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Make] AS [Make], 
+    [Extent1].[Color] AS [Color], 
+    [Extent1].[PetName] AS [PetName], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Inventory] AS [Extent1]
+    WHERE [Extent1].[Id] = @p0
+-- p0: '1' (Type = Int32)
+-- Executing at 2/21/2023 5:59:07 PM +06:00
+-- Completed in 243 ms with result: SqlDataReader
+
+Closed connection at 2/21/2023 5:59:07 PM +06:00
+Opened connection at 2/21/2023 5:59:07 PM +06:00
+SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Make] AS [Make], 
+    [Extent1].[Color] AS [Color], 
+    [Extent1].[PetName] AS [PetName], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Inventory] AS [Extent1]
+    WHERE [Extent1].[Id] = @p0
+-- p0: '1' (Type = Int32)
+-- Executing at 2/21/2023 5:59:07 PM +06:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 2/21/2023 5:59:07 PM +06:00
+Opened connection at 2/21/2023 5:59:07 PM +06:00
+Started transaction at 2/21/2023 5:59:07 PM +06:00
+UPDATE [dbo].[Inventory]
+SET [Make] = @0, [Color] = @1, [PetName] = @2
+WHERE (([Id] = @3) AND ([Timestamp] = @4))
+SELECT [Timestamp]
+FROM [dbo].[Inventory]
+WHERE @@ROWCOUNT > 0 AND [Id] = @3
+-- @0: 'VW' (Type = String, Size = 50)
+-- @1: 'Black' (Type = String, Size = 50)
+-- @2: 'NewName' (Type = String, Size = 50)
+-- @3: '1' (Type = Int32)
+-- @4: 'System.Byte[]' (Type = Binary, Size = 8)
+-- Executing at 2/21/2023 5:59:08 PM +06:00
+-- Completed in 59 ms with result: SqlDataReader
+
+Committed transaction at 2/21/2023 5:59:08 PM +06:00
+Closed connection at 2/21/2023 5:59:08 PM +06:00
+Opened connection at 2/21/2023 5:59:08 PM +06:00
+Started transaction at 2/21/2023 5:59:08 PM +06:00
+UPDATE [dbo].[Inventory]
+SET [Make] = @0, [Color] = @1, [PetName] = @2
+WHERE (([Id] = @3) AND ([Timestamp] = @4))
+SELECT [Timestamp]
+FROM [dbo].[Inventory]
+WHERE @@ROWCOUNT > 0 AND [Id] = @3
+-- @0: 'VW' (Type = String, Size = 50)
+-- @1: 'Black' (Type = String, Size = 50)
+-- @2: 'OtherName' (Type = String, Size = 50)
+-- @3: '1' (Type = Int32)
+-- @4: 'System.Byte[]' (Type = Binary, Size = 8)
+-- Executing at 2/21/2023 5:59:08 PM +06:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 2/21/2023 5:59:08 PM +06:00
+Opened connection at 2/21/2023 5:59:08 PM +06:00
+SELECT 
+    [Limit1].[Id] AS [Id], 
+    [Limit1].[Make] AS [Make], 
+    [Limit1].[Color] AS [Color], 
+    [Limit1].[PetName] AS [PetName], 
+    [Limit1].[Timestamp] AS [Timestamp]
+    FROM ( SELECT TOP (2) 
+        [Extent1].[Id] AS [Id], 
+        [Extent1].[Make] AS [Make], 
+        [Extent1].[Color] AS [Color], 
+        [Extent1].[PetName] AS [PetName], 
+        [Extent1].[Timestamp] AS [Timestamp]
+        FROM [dbo].[Inventory] AS [Extent1]
+        WHERE [Extent1].[Id] = @p0
+    )  AS [Limit1]
+-- p0: '1' (Type = Int32)
+-- Executing at 2/21/2023 5:59:08 PM +06:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 2/21/2023 5:59:08 PM +06:00
